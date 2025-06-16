@@ -1,10 +1,21 @@
-import React from 'react';
+import React from 'react'
 
-export default function NAFApp() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-700 to-indigo-900 flex flex-col items-center justify-center p-6">
-      <h1 className="text-white text-4xl font-bold mb-4">Sou a NAF, sua assistente virtual 💜</h1>
-      <p className="text-white">Os comandos inteligentes estarão disponíveis em breve.</p>
+    <div style={{
+      background: '#1b0033',
+      color: 'white',
+      height: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontSize: '1.5rem',
+      textAlign: 'center',
+    }}>
+      <div>
+        <h1>Sou a <span style={{color: '#ffcc00'}}>NAF</span>, sua assistente virtual 💜</h1>
+        <p>Os comandos inteligentes estarão disponíveis em breve!</p>
+      </div>
     </div>
-  );
+  )
 }
